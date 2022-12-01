@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         ANLogoS (AniList Dynamic Colored Logos)
 // @namespace    http://tampermonkey.net/
-// @website https://animetopbtns.github.io/website/ANLogoS/
+// @website      https://animetopbtns.github.io/website/ANLogoS/
 // @version      1.0
 // @description  Changes the color of the AniList logo to match profile themes
 // @author       WhiteTapeti
 // @match        *://*.anilist.co/*
 // @icon         https://github.com/animeTopBtns/AniList-dynamic-colored-Logo/blob/main/logox128.gif?raw=true
 // @grant        none
-// @require https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
 
 var ANLogoS = `<svg id="data-v-62eacfff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="50" viewBox="0 0 172 172"><style xmlns="">
