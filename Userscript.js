@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ANLogoS (AniList dynamic colored Logos)
+// @name         ANLogoS (AniList Dynamic Colored Logos)
 // @namespace    http://tampermonkey.net/
 // @website https://animetopbtns.github.io/website/ANLogoS/
 // @version      1.0
