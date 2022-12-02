@@ -147,5 +147,20 @@ $("body").append(
         }
       });
     });
+    window.addEventListener('popstate', (event) => {
+      if (window.location.href.indexOf('https://anilist.co/user/') == 0) {
+        $(".content .container").ready(function () {
+          console.log("d2-2");
+          $('.ANLogoS-1').css({
+            fill: 'rgb(' + $('.user-page-unscoped').css('--color-blue') + ')',
+          });
+        });
+      } else if (window.location.href.indexOf('https://anilist.co/') == 0) {
+        console.log("d1-2");
+        $('.ANLogoS-1').css({
+          fill: '#3db4f2',
+        });
+      }
+    });
   }
 );
